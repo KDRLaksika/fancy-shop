@@ -4,6 +4,11 @@ import "./globals.css";
 import HeaderTop from "@/components/HeaderTop";
 import HeaderMain from "@/components/HeaderMain";
 import Navbar from "@/components/Navbar";
+import Progressindicator from "@/components/Progressindicator";
+import Roundpills from "@/components/Roundpills";
+import Bulletpoints from "@/components/Bulletpoints";
+import Crosses from "@/components/Crosses";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +25,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <HeaderTop/>
+        {/* <HeaderTop/>
         <HeaderMain/>
-        <Navbar/>
+        <Navbar/> */}
+        {/* <Progressindicator />
+        <Roundpills />
+        <Crosses /> */}
         {children}
         </body>
     </html>

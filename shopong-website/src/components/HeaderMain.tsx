@@ -11,6 +11,7 @@ const HeaderMain = () => {
             <div className="font-bold text-4xl text-center pb-4 sm:pb-0 text-blackfish">
                 Logo
             </div>
+            
             <div className="w-full sm:w-[300px] md:w-[70%] relative">
                 <input 
                 className="border-gray-200 border p-2 px-4 rounded-lg w-full" 
